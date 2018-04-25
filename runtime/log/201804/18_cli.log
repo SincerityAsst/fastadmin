@@ -1,0 +1,32 @@
+[ 2018-04-18T16:04:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006581s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T16:04:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.001575s ]
+[ 2018-04-18T16:04:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000802s ]
+[ 2018-04-18T16:04:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.001041s ]
+[ 2018-04-18T16:24:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006836s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T16:24:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000931s ]
+[ 2018-04-18T16:24:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000834s ]
+[ 2018-04-18T16:24:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006624s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T16:24:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000837s ]
+[ 2018-04-18T16:24:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000928s ]
+[ 2018-04-18T16:24:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.000983s ]
+[ 2018-04-18T16:44:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.008580s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T16:44:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.001129s ]
+[ 2018-04-18T16:44:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.001200s ]
+[ 2018-04-18T16:44:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005669s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T16:44:15+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.001269s ]
+[ 2018-04-18T16:44:15+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.001292s ]
+[ 2018-04-18T16:44:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.001004s ]
+[ 2018-04-18T17:00:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.007554s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T17:00:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000869s ]
+[ 2018-04-18T17:00:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000741s ]
+[ 2018-04-18T17:00:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005892s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T17:00:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000976s ]
+[ 2018-04-18T17:00:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000827s ]
+[ 2018-04-18T17:00:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.001299s ]
+[ 2018-04-18T17:07:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006695s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T17:07:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000803s ]
+[ 2018-04-18T17:07:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000730s ]
+[ 2018-04-18T17:07:31+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006948s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-18T17:07:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000942s ]
+[ 2018-04-18T17:07:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000900s ]
+[ 2018-04-18T17:07:31+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.001182s ]

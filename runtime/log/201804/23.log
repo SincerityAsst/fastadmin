@@ -1,0 +1,2279 @@
+---------------------------------------------------------------
+[ 2018-04-23T09:07:45+08:00 ] 0.0.0.0 GET /fastadmin/public/
+[ info ] localhost/fastadmin/public/ [运行时间：0.090347s][吞吐率：11.07req/s] [内存消耗：3,344.96kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002368s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005225s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002284s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:21:40+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.068823s][吞吐率：14.53req/s] [内存消耗：3,637.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002859s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; monitor_count=2; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524445666',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001520s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000341s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:21:40+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524446500
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524446500 [运行时间：0.036835s][吞吐率：27.15req/s] [内存消耗：3,650.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001898s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524445666; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524446500',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000377s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000248s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:21:44+08:00 ] 0.0.0.0 GET /fastadmin/public/index/user/index.html
+[ info ] localhost/fastadmin/public/index/user/index.html [运行时间：0.067601s][吞吐率：14.79req/s] [内存消耗：4,104.83kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002671s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; monitor_count=4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000757s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005762s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.005424s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:45+08:00 ] 0.0.0.0 GET /fastadmin/public/index/user/login.html
+[ info ] localhost/fastadmin/public/index/user/login.html [运行时间：0.034170s][吞吐率：29.27req/s] [内存消耗：3,436.43kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002379s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000355s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\user\login.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'url',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:21:46+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524446505
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524446505 [运行时间：0.037398s][吞吐率：26.74req/s] [内存消耗：3,361.05kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002047s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1524446505',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000650s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:21:47+08:00 ] 0.0.0.0 POST /fastadmin/public/index/user/login.html
+[ info ] localhost/fastadmin/public/index/user/login.html [运行时间：0.063584s][吞吐率：15.73req/s] [内存消耗：4,606.54kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001764s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '117',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/fastadmin/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'account' => 'admin',
+  'password' => '123456',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000318s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run Closure @user_login_successed [ RunTime:0.000471s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003293s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.003716s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1524108136,`logintime`=1524446507,`updatetime`=1524446507  WHERE  `id` = 1 [ RunTime:0.002859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001868s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('8701044f5242e88a292c83d11134d8d00576586d' , 1 , 1524446507 , 1527038507) [ RunTime:0.001467s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:48+08:00 ] 0.0.0.0 GET /fastadmin/public/index/user/index.html
+[ info ] localhost/fastadmin/public/index/user/index.html [运行时间：0.049159s][吞吐率：20.34req/s] [内存消耗：4,569.85kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001882s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; monitor_count=6; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000494s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->index[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\user\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001455s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001862s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:48+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524446508
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524446508 [运行时间：0.055282s][吞吐率：18.09req/s] [内存消耗：4,496.24kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001723s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1524446508',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000442s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010725s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001976s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002168s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:50+08:00 ] 0.0.0.0 GET /fastadmin/public/index/express/address.html
+[ info ] localhost/fastadmin/public/index/express/address.html [运行时间：0.064198s][吞吐率：15.58req/s] [内存消耗：4,650.20kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001683s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'express',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000377s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Express->address[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Express.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\express\address.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010526s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001827s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_express_address` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_express_address` LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_express_address` ORDER BY `createtime` DESC LIMIT 0,10 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:50+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446510
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446510 [运行时间：0.043227s][吞吐率：23.13req/s] [内存消耗：4,482.66kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001691s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'express',
+  'v' => '1524446510',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000328s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001985s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001760s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:52+08:00 ] 0.0.0.0 GET /fastadmin/public/index/express/address_add.html
+[ info ] localhost/fastadmin/public/index/express/address_add.html [运行时间：0.058802s][吞吐率：17.01req/s] [内存消耗：4,641.40kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001673s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'express',
+    2 => 'address_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000439s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Express->address_add[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Express.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\express\address_add.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010675s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:53+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446512
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446512 [运行时间：0.054507s][吞吐率：18.35req/s] [内存消耗：4,482.66kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001827s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'express',
+  'v' => '1524446512',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000616s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010342s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002257s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001822s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:21:55+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446510
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524446510 [运行时间：0.048811s][吞吐率：20.49req/s] [内存消耗：4,482.66kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002176s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'express',
+  'v' => '1524446510',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000611s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001606s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002573s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:40+08:00 ] 0.0.0.0 GET /fastadmin/public/index/user/index.html
+[ info ] localhost/fastadmin/public/index/user/index.html [运行时间：0.056236s][吞吐率：17.78req/s] [内存消耗：4,569.87kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001883s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000510s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->index[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\user\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001625s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001955s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002358s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000719s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:40+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524447220
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524447220 [运行时间：0.054734s][吞吐率：18.27req/s] [内存消耗：4,496.24kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001832s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1524447220',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000852s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001311s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:41+08:00 ] 0.0.0.0 GET /fastadmin/public/index/express/address.html
+[ info ] localhost/fastadmin/public/index/express/address.html [运行时间：0.063429s][吞吐率：15.77req/s] [内存消耗：4,650.20kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001936s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'express',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000578s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Express->address[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Express.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\express\address.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002125s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002401s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_express_address` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_express_address` LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_express_address` ORDER BY `createtime` DESC LIMIT 0,10 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:42+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524447221
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524447221 [运行时间：0.048471s][吞吐率：20.63req/s] [内存消耗：4,482.66kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002131s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=12',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'express',
+  'v' => '1524447221',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000347s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001731s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001747s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:43+08:00 ] 0.0.0.0 GET /fastadmin/public/index/express/address_add.html
+[ info ] localhost/fastadmin/public/index/express/address_add.html [运行时间：0.061039s][吞吐率：16.38req/s] [内存消耗：4,641.40kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002089s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'express',
+    2 => 'address_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000333s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Express->address_add[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Express.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\express\address_add.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009990s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002074s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:33:44+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524447223
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=express&v=1524447223 [运行时间：0.045701s][吞吐率：21.88req/s] [内存消耗：4,482.66kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001653s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'express',
+  'v' => '1524447223',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000375s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002064s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002612s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002432s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:40+08:00 ] 0.0.0.0 GET /fastadmin/public/index/user/index.html
+[ info ] localhost/fastadmin/public/index/user/index.html [运行时间：0.063343s][吞吐率：15.79req/s] [内存消耗：4,569.87kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001807s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/index/express/address_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000904s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->index[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\user\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009677s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001662s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:40+08:00 ] 0.0.0.0 GET /fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524447520
+[ info ] localhost/fastadmin/public/index/ajax/lang?callback=define&controllername=user&v=1524447520 [运行时间：0.061105s][吞吐率：16.37req/s] [内存消耗：4,496.24kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002028s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1524447520',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011765s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000893s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:47+08:00 ] 0.0.0.0 GET /fastadmin/public/
+[ info ] localhost/fastadmin/public/ [运行时间：0.057160s][吞吐率：17.49req/s] [内存消耗：4,479.88kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001534s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524446503; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000333s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Nicmic\wamp64\www\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010103s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '8701044f5242e88a292c83d11134d8d00576586d' LIMIT 1 [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:51+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.036187s][吞吐率：27.63req/s] [内存消耗：3,637.87kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001527s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; monitor_count=15; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000491s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000284s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:38:52+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447531
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447531 [运行时间：0.051168s][吞吐率：19.54req/s] [内存消耗：3,651.05kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002187s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524447531',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000629s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000399s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:38:54+08:00 ] 0.0.0.0 POST /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.079884s][吞吐率：12.52req/s] [内存消耗：4,714.88kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001817s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; keeplogin=1%7C86400%7C1524187602%7Cc4a8f588140598abc0ab0a2bd7892930; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '8d464166d23c71ccc07db91f05457aa1',
+  'username' => 'admin',
+  'password' => '123456',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000540s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008653s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010735s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.004033s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1524447534,`token`='c302e959-4f61-4c14-ae9f-da07ceda2671',`updatetime`=1524447534  WHERE  `id` = 1 [ RunTime:0.002010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.005260s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"8d464166d23c71ccc07db91f05457aa1\",\"username\":\"admin\",\"keeplogin\":\"1\"}' , '/fastadmin/public/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36' , '0.0.0.0' , 1524447534) [ RunTime:0.001959s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:54+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.149351s][吞吐率：6.70req/s] [内存消耗：5,067.80kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000079s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002412s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; monitor_count=16; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000356s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000538s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010775s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003918s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004458s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001070s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:54+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447534
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447534 [运行时间：0.040708s][吞吐率：24.57req/s] [内存消耗：3,652.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002526s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524447534',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000569s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:38:54+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/dashboard?addtabs=1
+[ info ] localhost/fastadmin/public/admin/dashboard?addtabs=1 [运行时间：0.057858s][吞吐率：17.28req/s] [内存消耗：4,888.41kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001553s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000521s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001640s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002063s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:38:55+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447534
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447534 [运行时间：0.030141s][吞吐率：33.18req/s] [内存消耗：3,651.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001758s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524447534',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000403s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000163s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:38:59+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.031945s][吞吐率：31.30req/s] [内存消耗：3,605.09kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001530s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447527; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000324s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:39:02+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.032550s][吞吐率：30.72req/s] [内存消耗：3,605.09kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001924s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; monitor_count=19; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000412s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000224s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:39:03+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.112361s][吞吐率：8.90req/s] [内存消耗：5,067.80kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001608s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000476s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010462s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001603s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001881s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001331s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:39:03+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447543
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447543 [运行时间：0.039988s][吞吐率：25.01req/s] [内存消耗：3,652.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001871s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=21',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524447543',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000596s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000327s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:39:04+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/dashboard?addtabs=1
+[ info ] localhost/fastadmin/public/admin/dashboard?addtabs=1 [运行时间：0.067133s][吞吐率：14.90req/s] [内存消耗：4,888.41kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002227s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=21',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000388s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010176s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002802s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002548s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000864s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:39:04+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447544
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447544 [运行时间：0.031956s][吞吐率：31.29req/s] [内存消耗：3,651.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002063s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=21',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524447544',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000344s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000202s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:39:06+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/logout
+[ info ] localhost/fastadmin/public/admin/index/logout [运行时间：0.049076s][吞吐率：20.38req/s] [内存消耗：4,646.32kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001453s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; keeplogin=1%7C86400%7C1524533934%7Ce90197b368763df5c909f1cc424d5294; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=21',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000519s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.002911s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `token`='',`updatetime`=1524447546  WHERE  `id` = 1 [ RunTime:0.002677s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:39:08+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/login
+[ info ] localhost/fastadmin/public/admin/index/login [运行时间：0.033590s][吞吐率：29.77req/s] [内存消耗：3,637.77kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001871s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/logout',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000339s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000191s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:39:08+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447548
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447548 [运行时间：0.042513s][吞吐率：23.52req/s] [内存消耗：3,650.79kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000078s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001997s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=23',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524447548',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001144s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000474s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:41:39+08:00 ] 0.0.0.0 POST /fastadmin/public/admin/index/login
+[ info ] localhost/fastadmin/public/admin/index/login [运行时间：0.101489s][吞吐率：9.85req/s] [内存消耗：4,714.79kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000087s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003390s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=23',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'dcba5a0a0f69edeb19959128275c7866',
+  'username' => 'admin',
+  'password' => '123456',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000678s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.007461s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001558s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.002884s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1524447699,`token`='38d9460a-d477-4352-84f5-d589089bd440',`updatetime`=1524447699  WHERE  `id` = 1 [ RunTime:0.003018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.002700s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"dcba5a0a0f69edeb19959128275c7866\",\"username\":\"admin\",\"keeplogin\":\"1\"}' , '/fastadmin/public/admin/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36' , '0.0.0.0' , 1524447699) [ RunTime:0.002590s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:41:39+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.192332s][吞吐率：5.20req/s] [内存消耗：5,067.79kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003851s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; monitor_count=23; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000656s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000345s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001967s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002443s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002266s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001623s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:41:40+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447699
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1524447699 [运行时间：0.055461s][吞吐率：18.03req/s] [内存消耗：3,652.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000114s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003009s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524447699',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000776s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000499s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:41:40+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/dashboard?addtabs=1
+[ info ] localhost/fastadmin/public/admin/dashboard?addtabs=1 [运行时间：0.073960s][吞吐率：13.52req/s] [内存消耗：4,888.41kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003076s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000432s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000524s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001820s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002347s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003013s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:41:40+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447700
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1524447700 [运行时间：0.046378s][吞吐率：21.56req/s] [内存消耗：3,651.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002157s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524447700',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000862s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000302s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-23T09:42:57+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/general/config?addtabs=1
+[ info ] localhost/fastadmin/public/admin/general/config?addtabs=1 [运行时间：0.093741s][吞吐率：10.67req/s] [内存消耗：4,907.23kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002721s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000997s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\general\Config.php ]
+[ info ] [ VIEW ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\view\general\config\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000290s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010231s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002496s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001661s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.005941s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-04-23T09:42:57+08:00 ] 0.0.0.0 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=general.config&v=1524447777
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=general.config&v=1524447777 [运行时间：0.036482s][吞吐率：27.41req/s] [内存消耗：3,652.02kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001787s ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.2674152282702414300.1511062416404.1409; UM_distinctid=161ec237cedd6-060377a8b62a73-5d4e211f-1fa400-161ec237ceea09; WSTMART_history_goods=think%3A%5B%222%22%2C%2210%22%2C%2265%22%2C%223%22%5D; CNZZDATA1263804910=403518857-1520085203-%7C1521684954; _ga=GA1.1.657293887.1511062417; PHPSESSID=a19thtccnu8tavsj44lf4ilfl7; uid=1; token=9fca8691-84b0-4e1f-ba30-bdfe270c0cfa; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524017063,1524100628,1524445666; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524447541; keeplogin=1%7C86400%7C1524534099%7C2d35e4280b8e76847098457a2859dd74; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1524447777',
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000677s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\Nicmic\wamp64\www\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\Nicmic\wamp64\www\fastadmin\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000522s ]
+[ info ] [ LOG ] INIT File

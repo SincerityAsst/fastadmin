@@ -1,0 +1,11 @@
+[ 2018-04-19T09:58:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002845s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-19T09:58:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.001159s ]
+[ 2018-04-19T09:58:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000809s ]
+[ 2018-04-19T09:58:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002624s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-19T09:58:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_address' [ RunTime:0.000965s ]
+[ 2018-04-19T09:58:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_address' [ RunTime:0.000729s ]
+[ 2018-04-19T09:58:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_address' ORDER BY ORDINAL_POSITION [ RunTime:0.001428s ]
+[ 2018-04-19T11:03:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003793s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-04-19T11:03:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'express_reserve' [ RunTime:0.000982s ]
+[ 2018-04-19T11:03:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_express_reserve' [ RunTime:0.001326s ]
+[ 2018-04-19T11:03:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_express_reserve' ORDER BY ORDINAL_POSITION [ RunTime:0.001092s ]
